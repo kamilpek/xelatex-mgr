@@ -146,12 +146,39 @@ i~materialnych innych osób.\endgraf }
 %
 \long\def\oswiadczenie{%%\newpage 
 \if@twocolumn \onecolumn \fi
-\chapter*{Oświadczenie}%
-\addcontentsline{toc}{chapter}{Oświadczenie}%
+\chapter*{Oświadczenie dot. praw autorskich}%
+\markboth{Oświadczenie dot. praw autorskich}{}
+\addcontentsline{toc}{chapter}{Oświadczenie dot. praw autorskich}%
 \par 
 \vskip6mm
 \noindent
 \oswiadczenieText
+\par\vskip12mm 
+\centerline{\vbox{%
+\hbox to.8\textwidth{\hbox to45mm{\dotfill}\hss 
+   \hbox to45mm{\dotfill}} 
+\hbox to.8\textwidth{\hbox to45mm{\hss data\hss}\hss
+\hbox to45mm{\hss podpis\hss}}%
+}}\par
+\newpage }
+%
+\def\oswiadczenieUdostepnianieText{%
+Wyrażam zgodę na udostępnienie osobom
+zainteresowanym mojej pracy dyplomowej dla celów naukowo-badawczych.
+\newline
+Zgoda na udostępnienie pracy dyplomowej nie oznacza wyrażenia zgody 
+na kopiowanie pracy dyplomowej w całości lub w części.
+\endgraf }
+%
+\long\def\oswiadczenieUdostepnianie{%%\newpage 
+\if@twocolumn \onecolumn \fi
+\chapter*{Oświadczenie dot. udostępnienia pracy dyplomowej dla celów naukowo-badawczych}%
+\markboth{Oświadczenie dot. udostępnienia pracy dyplomowej dla celów naukowo-badawczych}{}
+\addcontentsline{toc}{chapter}{Oświadczenie dot. udostępnienia pracy dyplomowej dla celów naukowo-badawczych}%
+\par 
+\vskip6mm
+\noindent
+\oswiadczenieUdostepnianieText
 \par\vskip12mm 
 \centerline{\vbox{%
 \hbox to.8\textwidth{\hbox to45mm{\dotfill}\hss 

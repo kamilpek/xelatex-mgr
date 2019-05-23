@@ -53,6 +53,10 @@ tylko jeśli wybrano opcję <em>brudnopis</em></dd>
 <dd>tekst oświadczenia o samodzielnym wykonaniu pracy, określony
 w piśmie okólnym Rektora UG z dnia 13 grudnia 2004</dd>
 
+<dt><code>\oswiadczenieUdostepnianie</code></dt>
+<dd>tekst oświadczenia dotyczącego udostępnienia pracy dyplomowej 
+dla celów naukowo-badawczych, Załącznik nr 3 do zarządzenia Rektora UG nr 70/R/15</dd>
+
 <dt><code>\autor</code></dt>
 <dd>imię oraz nazwisko autora</dd>
 
